@@ -9,12 +9,12 @@ terraform {
 
 variable "title" {
     type = string
-    default = "Marquel"
+    default = "mochi"
 }
 
 variable "body" {
     type = string
-    default = "Bye"
+    default = "hi"
 }
 
 resource "item_order" "example" {
